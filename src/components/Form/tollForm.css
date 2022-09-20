@@ -1,0 +1,85 @@
+.toll_form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgb(246, 250, 250);
+    border-radius: 5px;
+    /* padding: 60px; */
+    margin: 20px;
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+    top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+    bottom: 50px;
+}
+.toll_form h1 {
+    text-align: center;
+}
+
+
+.toll_form .tollName {
+    width: 90%;
+}
+.toll_form .tollName input {
+    width: 94%;
+    border-radius: 4px;
+    padding: 10px;
+    border: 2px solid rgb(179, 177, 177);
+    /* color: rgb(206, 201, 201); */
+    font-size: large;
+    position: relative;
+    left: 45px;
+}
+.label {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  left:37px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.label span{
+    color: red;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    
+}
+.btn  button{
+    width: 90%;
+    background-color: rgb(88, 88, 210);
+    color: aliceblue;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+
+}
+
+.fare_details {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    left: 18px;
+}
+
+
+select {
+    width: 250px;
+    border-radius: 4px;
+    padding: 10px;
+    border: 2px solid rgb(179, 177, 177);
+}
+
+.fare_details input[type=text] {
+    width: 250px;
+    border-radius: 4px;
+    padding: 10px;
+    border: 2px solid rgb(179, 177, 177);
+}

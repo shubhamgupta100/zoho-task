@@ -1,0 +1,64 @@
+.vehicle_main {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: auto;
+}
+.vehicle_main .left {
+    display: flex;
+    width: 50%;
+    margin-top: 20px;
+}
+.isShow {
+    display: none;
+}
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(133, 131, 131);
+    margin: 10px;
+    text-align: left;
+  }
+.vehicle_main .left div{
+    padding-right: 20px;
+
+}
+    input[type=search] { 	
+        color: rgb(119, 117, 117);  
+        text-align: right;
+        cursor: pointer;
+        display: block; 
+        width: 100%; 
+        letter-spacing: 4px;    
+        word-spacing: 20px; 
+        border-radius: 10px;   
+        margin-top: 10px;
+        padding: 3px 0;
+    }
+
+.vehicle_main .left h1 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.vehicle_main .left p {
+    font-size: 12px;
+    font-weight: 700;
+}
+.vehicle_main .right{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.vehicle_main .right div {
+    padding-left: 20px;
+}
+.vehicle_main .right div button {
+    padding:5px 15px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}

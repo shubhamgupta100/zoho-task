@@ -1,0 +1,25 @@
+#table-data {
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 70%;
+    position: relative;
+    margin: auto;
+  }
+  
+  #table-data td, #table-data th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* #table-data tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table-data tr:hover {background-color: #ddd;} */
+  
+  #table-data th {
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #e8ecea;
+    color: rgb(88, 86, 86);
+  }
