@@ -11,11 +11,23 @@ import {
 } from "./actionType";
 
 // Get All Vehicle
-export const getVehicles = () =>
+export const getVehicles = (search = "" , tollName="") =>
     async (dispatch) => {
         try {
+            console.log('hj' , search)
             dispatch({ type: ALL_VEHICLE_REQUEST });
             let vehicles =  JSON.parse(localStorage.getItem('vehicles'));
+            if(search!==""){
+                vehicles = vehicles.filter((item)=>{
+                    return item.vehicleNumber ===search
+                });
+                console.log('vehicleAction'  , vehicles)
+            }
+            if(tollName!==""){
+                vehicles = vehicles.filter((item)=>{
+                    return item.tollName ===tollName
+                });
+            }
 
             dispatch({
                 type: ALL_VEHICLE_SUCCESS,

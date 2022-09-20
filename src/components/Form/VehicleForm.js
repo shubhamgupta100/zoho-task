@@ -22,7 +22,6 @@ const VehicleForm = ({ setIsOpen }) => {
         tarrif: ''
     })
     const dispatch = useDispatch();
-    const data = useSelector((state) => state.newVehicle);
     const handleChange = (e) => {
         e.preventDefault();
         const value = e.target.value;

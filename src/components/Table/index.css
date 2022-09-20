@@ -11,10 +11,6 @@
     padding: 8px;
   }
   
-  /* #table-data tr:nth-child(even){background-color: #f2f2f2;}
-  
-  #table-data tr:hover {background-color: #ddd;} */
-  
   #table-data th {
 
     padding-top: 12px;
@@ -23,3 +19,12 @@
     background-color: #e8ecea;
     color: rgb(88, 86, 86);
   }
+   .heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(111, 109, 109);
+    /* text-align: center; */
+    position: relative;
+    top: 100px;
+    left: 100%;
+   }

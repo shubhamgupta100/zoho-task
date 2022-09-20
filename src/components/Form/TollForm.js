@@ -1,13 +1,12 @@
 import React  from 'react';
 import { useNavigate } from 'react-router-dom';
 import './tollForm.css'
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import {createToll } from "../../actions/tollAction";
 import { Header } from '../Header/Header';
 const TollForm = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
-    const {payload} = useSelector((state) => state.newToll);
     const vehicleType = [
         'Car/jeep/van', 'lcv', 'Truck/Bus', 'Heavy van'
     ]
@@ -36,7 +35,7 @@ const TollForm = () => {
     }
     const handleClick= (e)=>{
         e.preventDefault();
-        if(state.returnJ1!=='' || state.returnJ2 ==='' || state.returnJ3==="" || state.returnJ4==='' || state.singleJ1==='' || state.singleJ2==='' || state.singleJ3===""
+        if(state.returnJ1==='' || state.returnJ2 ==='' || state.returnJ3==="" || state.returnJ4==='' || state.singleJ1==='' || state.singleJ2==='' || state.singleJ3===""
           || state.singleJ4==='' || state.tollName===""  || state.vehicleType1==="" || state.vehicleType2==="" || state.vehicleType3==="" || state.vehicleType4===""){
             alert('All Fields are required !')
         }else{

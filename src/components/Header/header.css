@@ -13,6 +13,22 @@
 .isShow {
     display: none;
 }
+.show-dropdown {
+    display: block;
+    position: relative;
+    top: -10px;
+    left: 20px;
+}
+.show-dropdown select{
+    width: 200px;
+    outline: none;
+}
+.hide-dropdown{
+    display: none;
+}
+i{
+    cursor: pointer;
+}
 h1 {
     font-size: 20px;
     font-weight: bold;
