@@ -1,10 +1,7 @@
 ### To install 
-`bash 
-npm install
-`bash
+
+`npm install`
 
 ### To Start
 
-`bash
-npm start
-`
+`npm start`
